@@ -3,7 +3,6 @@ from PIL import Image
 import os
 import re
 
-# Update the path to match your Tesseract installation path
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
 def detect_orientation(input_path):
